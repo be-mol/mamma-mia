@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header {
+  background-image: url("https://di-uploads-pod8.dealerinspire.com/rockwallchryslerdodgejeepram/uploads/2018/10/pizza-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  width: 100%;
+  gap: 5%;
+  padding-bottom: 10%;
+}
